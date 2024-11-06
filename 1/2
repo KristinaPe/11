@@ -1,0 +1,19 @@
+<div class="box">
+    <div class="carousel">
+        <div class="carousel-images">
+            <a href="https://pl.pinterest.com/pin/5066618329127402/">
+                <img src="https://i.pinimg.com/736x/b3/dd/4b/b3dd4b0a58a18c25bc66058a6e955a8f.jpg" alt="Image 1">
+              </a>
+              <a href="https://pl.pinterest.com/pin/645422190382913717/">
+                <img src="https://i.pinimg.com/enabled_hi/564x/18/9c/c1/189cc142032eb68c75c6a44e2472e3e0.jpg" alt="Image 2">
+              </a>
+              <a href="https://pl.pinterest.com/pin/122160208635432438/">
+                <img src="https://i.pinimg.com/564x/7e/30/08/7e3008b8b25ebbb6db5b65f6925beee1.jpg" alt="Image 3">
+              </a>
+        </div>
+        <button class="prev" onclick="moveCarousel(this, -1)">&#10094;</button>
+        <button class="next" onclick="moveCarousel(this, 1)">&#10095;</button>
+    </div>
+    <button>О товаре</button>
+    <button>Купить</button>
+</div>

@@ -1,0 +1,17 @@
+</div>
+            <div class="box">
+                <div class="carousel">
+                    <div class="carousel-images">
+                    
+                        <img src="https://static.tildacdn.com/stor6634-6665-4566-b236-396338353433/32250087.png" alt="Товар 6 - 1">
+                        <img src="https://static.tildacdn.com/stor3461-3339-4131-b163-303134383837/26075266.png" alt="Товар 6 - 2">
+                        <img src="https://static.tildacdn.com/stor6632-6662-4262-a636-613934613562/98390794.png" alt="Товар 6 - 3">
+                        <img src="https://static.tildacdn.com/stor6136-3163-4765-b731-643861613666/31197173.png" alt="Товар 6 - 4">
+                     
+                    </div>
+                    <button class="prev" onclick="moveCarousel(this, -1)">&#10094;</button>
+                    <button class="next" onclick="moveCarousel(this, 1)">&#10095;</button>
+                </div>
+                <button>О товаре</button>
+                <button>Купить</button>
+            </div>

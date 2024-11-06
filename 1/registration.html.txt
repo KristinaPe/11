@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang=»en»>
+<head>
+    <meta charset=»UTF-8»>
+    <meta name=»viewport» content=»width=device-width, initial-scale=1.0»>
+    <title>Form Page</title>
+    <style>
+        Body {
+            Font-family: Arial, sans-serif;
+            Margin: 20px;
+            Padding: 20px;
+            Border: 1px solid #ccc;
+            Max-width: 400px;
+        }
+        Label {
+            Margin-top: 10px;
+            Display: block;
+        }
+        Input {
+            Width: 100%;
+            Padding: 8px;
+            Margin-top: 5px;
+        }
+        Button {
+            Margin-top: 10px;
+            Padding: 10px;
+            Width: 48%;
+            Cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sample Form</h1>
+    <form action=»#» method=»POST»>
+        <label for=»field1»>Field 1:</label>
+        <input type=»text» id=»field1» name=»field1» required>
+
+        <label for=»field2»>Field 2:</label>
+        <input type=»text» id=»field2» name=»field2» required>
+
+        <label for=»field3»>Field 3:</label>
+        <input type=»text» id=»field3» name=»field3» required>
+
+        <button type=»submit»>Submit</button>
+        <button type=»reset»>Reset</button>
+    </form>
+</body>
+</html>
+
